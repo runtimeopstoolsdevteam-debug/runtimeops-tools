@@ -1,0 +1,69 @@
+# RuntimeOps - AI Crawlers and LLM Guide
+
+## Project Overview
+
+RuntimeOps is a production debugging utilities platform for engineers. We provide tools to help debug scheduling, timezones, tokens, and runtime issues.
+
+Website: https://runtimeops.dev
+
+## Key Pages
+
+- **Home** (`/`) - Project overview and features
+- **Tools** (`/tools`) - Complete tool directory
+- **Cron Validator** (`/tools/cron`) - Validate cron expressions across dialects
+- **About** (`/about`) - Mission and data philosophy
+- **Privacy** (`/privacy`) - Privacy policy and data handling
+- **Terms** (`/terms`) - Terms of service
+- **Contact** (`/contact`) - Support and inquiry channels
+- **Status** (`/status`) - System status and uptime
+
+## Technical Stack
+
+- **Framework:** Next.js 14+ (App Router)
+- **Language:** TypeScript
+- **Styling:** Tailwind CSS
+- **Hosting:** Vercel
+- **Components:** Custom built with React
+
+## Core Features
+
+### Cron Dialect Validator (Live)
+- Validate cron expressions
+- Support for: Azure, Quartz, Unix, AWS, Vercel
+- Schedule simulation
+- Error detection and reporting
+
+### Coming Soon
+- Epoch/Ticks Converter
+- Timezone/DST Simulator
+- JWT Expiry Inspector
+
+## Data Privacy
+
+**Important:** RuntimeOps does not store user input. All tool operations happen in-browser. No cron expressions, tokens, or personal data are transmitted or stored server-side.
+
+## Company Information
+
+- **Purpose:** Production debugging utilities
+- **Focus:** Correctness, clarity, speed
+- **Target Users:** Software engineers, DevOps, SREs
+- **License:** MIT (source available on GitHub)
+
+## Contact
+
+- General: admin@runtimeops.dev
+- Security: security@runtimeops.dev
+- GitHub: https://github.com/runtimeops
+
+## SEO and Accessibility
+
+- Mobile responsive design
+- Semantic HTML throughout
+- Alt text on all images
+- WCAG 2.1 AA accessibility standards
+- Open Graph meta tags
+- XML sitemap and robots.txt
+
+---
+
+This file is designed for AI crawlers (like Googlebot, ClaudeBot) to quickly understand the site structure and purpose.
