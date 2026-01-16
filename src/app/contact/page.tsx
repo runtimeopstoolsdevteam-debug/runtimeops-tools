@@ -1,5 +1,5 @@
 import { PageContainer } from '@/components';
-import { Mail, Phone } from 'lucide-react';
+import { Mail } from 'lucide-react';
 
 export const metadata = {
   title: 'Contact - RuntimeOps',

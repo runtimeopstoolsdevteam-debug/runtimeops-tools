@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-import { Shield, Lock, FileText } from 'lucide-react';
+import { Shield, Lock } from 'lucide-react';
 
 export function Footer() {
   return (

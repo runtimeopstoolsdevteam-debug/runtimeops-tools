@@ -1,6 +1,6 @@
 import React from 'react';
 import Link from 'next/link';
-import { Home, Wrench, AlertCircle, Clock, FileText, Mail, Activity, BookOpen, Menu } from 'lucide-react';
+import { Home, Wrench, AlertCircle, Clock, Mail, Activity, BookOpen } from 'lucide-react';
 
 const navigationItems = [
   { href: '/', label: 'Home', icon: Home },

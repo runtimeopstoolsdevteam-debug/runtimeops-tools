@@ -1,5 +1,5 @@
 import { PageContainer } from '@/components';
-import { CheckCircle2, AlertCircle } from 'lucide-react';
+import { CheckCircle2 } from 'lucide-react';
 
 export const metadata = {
   title: 'System Status - RuntimeOps',
@@ -13,7 +13,7 @@ export default function StatusPage() {
     { name: 'Analytics', status: 'operational', uptime: '99.8%' },
   ];
 
-  const incidents = [];
+  const incidents: Array<{ id: string; title: string; description: string; date: string }> = [];
 
   return (
     <PageContainer
