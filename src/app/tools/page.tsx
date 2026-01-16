@@ -49,7 +49,6 @@ export default function ToolsPage() {
     >
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-12">
         {tools.map((tool) => {
-          const Icon = tool.icon;
           return (
             <div key={tool.title}>
               <InfoCard
